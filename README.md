@@ -11,7 +11,7 @@ pip install psutil pyautogui pygetwindow
 
 ```shell
 pip install pyinstaller
-pyinstaller --onefile office_auto_save.py
+pyinstaller --onefile --noconsole --icon=./images/icon.ico office_auto_save.py
 ```
 
 ## Performance
